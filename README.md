@@ -34,10 +34,3 @@ html-calculator/
 - `aria-label` attributes on interactive controls
 - Sufficient color contrast recommended (check in `styles.css`)
 
-## Browser Support
-Works on latest Chrome, Edge, Firefox, and Safari.
-
-## Troubleshooting
-- **Nothing happens on click**: ensure `script.js` is correctly linked in `index.html`.
-- **Keyboard not working**: verify the `keydown` listener is attached to `document`.
-
