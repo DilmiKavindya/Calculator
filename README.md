@@ -12,17 +12,6 @@ A simple calculator built with **HTML**, **CSS**, Perfect for basic arithmetic i
 - **HTML** for structure
 - **CSS** for styling
 
-## Getting Started
-1. Clone or download the project files.
-2. Open `index.html` in any modern web browser.
-
-```bash
-# Optionally serve with a simple local server
-# Python 3
-python -m http.server 8080
-# Then visit http://localhost:8080
-```
-
 ## Usage
 1. Click the buttons or use your keyboard to enter numbers and operators.
 2. Press `=` or `Enter` to calculate.
@@ -33,7 +22,6 @@ python -m http.server 8080
 html-calculator/
 ├── index.html       # Markup and layout
 ├── styles.css       # Calculator styles
-└── script.js        # Calculation logic & events
 ```
 
 ## Customization
@@ -52,5 +40,4 @@ Works on latest Chrome, Edge, Firefox, and Safari.
 ## Troubleshooting
 - **Nothing happens on click**: ensure `script.js` is correctly linked in `index.html`.
 - **Keyboard not working**: verify the `keydown` listener is attached to `document`.
-- **Display shows NaN/Infinity**: handle divide-by-zero or invalid input in `script.js`.
 
