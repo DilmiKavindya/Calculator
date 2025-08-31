@@ -1,6 +1,6 @@
-# HTML Calculator
+# Calculator
 
-A simple calculator built with **HTML**, **CSS**, and a sprinkle of **JavaScript**. Perfect for basic arithmetic in the browser.
+A simple calculator built with **HTML**, **CSS**, Perfect for basic arithmetic in the browser.
 
 ## Features
 - Add, subtract, multiply, divide
@@ -11,7 +11,6 @@ A simple calculator built with **HTML**, **CSS**, and a sprinkle of **JavaScript
 ## Tech Stack
 - **HTML** for structure
 - **CSS** for styling
-- **JavaScript** for logic
 
 ## Getting Started
 1. Clone or download the project files.
@@ -54,11 +53,4 @@ Works on latest Chrome, Edge, Firefox, and Safari.
 - **Nothing happens on click**: ensure `script.js` is correctly linked in `index.html`.
 - **Keyboard not working**: verify the `keydown` listener is attached to `document`.
 - **Display shows NaN/Infinity**: handle divide-by-zero or invalid input in `script.js`.
-
-## License
-This project is open source. You may use, modify, and distribute it.
-
----
-**Author:** Your Name
-**Demo/Screenshot (optional):** Add `screenshot.png` and link it here.
 
